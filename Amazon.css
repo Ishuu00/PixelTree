@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* adding this cause content border will counted inside the content area */
+}
+
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    align-items: center;
+}
+
+.nav-logo{
+    background-size: cover ;
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg);
+    height: 60px; 
+    width: 110px;
+}
+
+.border{
+    border: 1px solid transparent;
+
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+/* location bar */
+
+.nav-location{
+    width: 100px;
+}
+
+.address{
+    color: #cccccc;
+    font-size: 12px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 35px;
+}
+
+.india{
+    font-size:14px ;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+i{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.locpara{
+    margin-left: 5px;
+}
+
+/* seach bar section  */
+
+.nav-search{
+    display: flex;
+    background-color: rgb(255, 174, 0);
+    border-radius: 5px ;
+}
+
+.nav-input{
+    width: 800px;
+    height: 40px; 
+    font-size: 1.1rem;
+    border: none;
+}
+
+.nav-selector{
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    background-color: #E6E6E6;
+    border: none;
+    width: 50px;
+    text-align: center;
+}
+
+.nav-search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+}
+
