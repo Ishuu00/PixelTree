@@ -12,6 +12,7 @@
     background-color: #0f1111;
     align-items: center;
     color: white;
+    justify-content: space-around;
 }
 
 .nav-logo{
@@ -97,4 +98,21 @@ i{
 }
 .search-language{
     margin-right: 5px;
+    color: #ffffff;
+}
+
+.sign1{
+    font-size: 12px;
+}
+.sign2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order1{
+    font-size: 12px;
+}
+.order2{
+    font-size: 14px;
+    font-weight: bold;
 }
