@@ -12,7 +12,7 @@
     background-color: #0f1111;
     align-items: center;
     color: white;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .nav-logo{
@@ -70,7 +70,7 @@ i{
 }
 
 .nav-input{
-    width: 800px;
+    width: 750px;
     height: 40px; 
     font-size: 1.1rem;
     border: none;
@@ -114,5 +114,20 @@ i{
 }
 .order2{
     font-size: 14px;
+    font-weight: bold;
+}
+
+/* Cart */
+
+.cart{
+    display: flex;
+    align-items: end;
+}
+
+.cart-icon{
+    scale: 1.5;
+}
+.cart-para{
+    margin-left: 15px;
     font-weight: bold;
 }
