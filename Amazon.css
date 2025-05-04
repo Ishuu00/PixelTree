@@ -11,6 +11,7 @@
     height: 60px;
     background-color: #0f1111;
     align-items: center;
+    color: white;
 }
 
 .nav-logo{
@@ -89,3 +90,11 @@ i{
     align-items: center;
 }
 
+/*  Language section */
+
+.language{
+    display: flex;
+}
+.search-language{
+    margin-right: 5px;
+}
