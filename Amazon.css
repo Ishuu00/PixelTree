@@ -89,6 +89,7 @@ i{
     width: 45px;
     display: flex;
     align-items: center;
+    color: black;
 }
 
 /*  Language section */
@@ -164,3 +165,33 @@ i{
 
 /* mid panel */
 
+.background-image{
+    background-image: url(/Picture/makeup_background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.back-sent{
+    background-color: #f5f6f6;
+    padding: 10px 14px 10px 14px;
+    position: relative;
+    bottom: 25px;
+    width: 96vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    font-size: 14px;
+  
+}
+.sentlink{
+    text-decoration: none;
+    color: #2162a1;
+}
+.sentlink:hover{
+    text-decoration: underline;
+}
