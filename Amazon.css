@@ -131,3 +131,36 @@ i{
     margin-left: 15px;
     font-weight: bold;
 }
+
+/* lower search bar */
+
+.lower-nav-bar{
+    height: 39px;
+    background-color: #1a273e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.lower-all{
+    margin-left: 5px;
+}
+
+.lower-links{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* background layout */
+
+
+.background-main{
+    width: 1528px;
+    /* width: 100vw; */
+}
+
+/* mid panel */
+
