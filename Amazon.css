@@ -168,7 +168,7 @@ i{
 .background-image{
     background-image: url(/Picture/makeup_background.jpg);
     background-size: cover;
-    width: 100vw;
+    width: 99vw;
     height: 350px;
     display: flex;
     align-items: flex-end;
@@ -194,4 +194,23 @@ i{
 }
 .sentlink:hover{
     text-decoration: underline;
+}
+
+/* main shopping page */
+
+.shopping-page{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FCE1E6;
+}
+
+.box{
+    height: 385px;
+    width: 23%;
+    border: 2px solid;
+    background-color: white;
+    
+}
+.box1-sub{
+    padding: 25px 20px 15px ;
 }
