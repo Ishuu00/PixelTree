@@ -5,7 +5,6 @@
     box-sizing: border-box;
     /* adding this cause content border will counted inside the content area */
 }
-
 .navbar{
     display: flex;
     height: 60px;
@@ -14,29 +13,23 @@
     color: white;
     justify-content: space-evenly;
 }
-
 .nav-logo{
     background-size: cover ;
     background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg);
     height: 60px; 
     width: 110px;
 }
-
 .border{
     border: 1px solid transparent;
 
 }
-
 .border:hover{
     border: 1px solid white;
 }
-
 /* location bar */
-
 .nav-location{
     width: 100px;
 }
-
 .address{
     color: #cccccc;
     font-size: 12px;
@@ -44,7 +37,6 @@
     /* align-items: center; */
     margin-left: 35px;
 }
-
 .india{
     font-size:14px ;
     color: #ffffff;
@@ -52,7 +44,6 @@
     display: flex;
     align-items: center;
 }
-
 i{
     font-size: 20px;
     margin-left: 15px;
@@ -60,22 +51,18 @@ i{
 .locpara{
     margin-left: 5px;
 }
-
 /* seach bar section  */
-
 .nav-search{
     display: flex;
     background-color: rgb(255, 174, 0);
     border-radius: 5px ;
 }
-
 .nav-input{
     width: 750px;
     height: 40px; 
     font-size: 1.1rem;
     border: none;
 }
-
 .nav-selector{
     border-top-left-radius:5px;
     border-bottom-left-radius: 5px;
@@ -84,16 +71,13 @@ i{
     width: 50px;
     text-align: center;
 }
-
 .nav-search-icon{
     width: 45px;
     display: flex;
     align-items: center;
     color: black;
 }
-
 /*  Language section */
-
 .language{
     display: flex;
 }
@@ -101,7 +85,6 @@ i{
     margin-right: 5px;
     color: #ffffff;
 }
-
 .sign1{
     font-size: 12px;
 }
@@ -109,7 +92,6 @@ i{
     font-size: 14px;
     font-weight: bold;
 }
-
 .order1{
     font-size: 12px;
 }
@@ -117,14 +99,11 @@ i{
     font-size: 14px;
     font-weight: bold;
 }
-
 /* Cart */
-
 .cart{
     display: flex;
     align-items: end;
 }
-
 .cart-icon{
     scale: 1.5;
 }
@@ -132,9 +111,7 @@ i{
     margin-left: 15px;
     font-weight: bold;
 }
-
 /* lower search bar */
-
 .lower-nav-bar{
     height: 39px;
     background-color: #1a273e;
@@ -142,11 +119,9 @@ i{
     display: flex;
     align-items: center;
 }
-
 .lower-all{
     margin-left: 5px;
 }
-
 .lower-links{
     color: white;
     font-size: 14px;
@@ -154,17 +129,12 @@ i{
     margin-left: 20px;
     font-weight: 500;
 }
-
 /* background layout */
-
-
 .background-main{
     width: 1528px;
     /* width: 100vw; */
 }
-
 /* mid panel */
-
 .background-image{
     background-image: url(/Picture/makeup_background.jpg);
     background-size: cover;
@@ -195,9 +165,7 @@ i{
 .sentlink:hover{
     text-decoration: underline;
 }
-
 /* main shopping page */
-
 .shopping-page{
     display: flex;
     justify-content: space-evenly;
@@ -213,11 +181,9 @@ i{
     color: #2162a1;
     font-size: 13px;
 }
-
 .box a:hover{
     color: black;
 }
-
 .box h2{
     font-size: 21px;
 }
@@ -253,4 +219,92 @@ i{
 }
 main{
     background-color: #FDE1E6;
+}
+.footer-sign{
+    height: 100px;
+    background-color:white;
+    text-align: center;
+    padding: 30px;
+}
+.footer-sign a{
+    text-decoration: none;
+}
+.button-sign-box {
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+.button-sign-box button{
+    background-color: rgb(255, 200, 0);
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+/* footer part */
+.backsword{
+    height: 50px;
+    background-color: #485769;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amazon-links{
+    height:300px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    border-bottom: 1px solid grey;
+}
+.link1 {
+    height: 200px;
+    
+}
+.link1 a{
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    margin-top: 13px;
+    font-size: 14px;
+}
+.link1 a:hover{
+    text-decoration: underline;
+}
+/* last logo panel */
+.last-logo-panel{
+    height: 100px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-logo-panel a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 13px;
+}
+/* terms and condtions */
+.tandc{
+    background-color: #131A22;
+    color: #d1d4d6;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+}
+.tandc a{
+    text-decoration: none;
+    color: #d1d4d6;
+    margin-right: 14px;
+    font-weight: bold;
+}
+.tandc a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    margin-top: 5px;  
+    font-weight: bold;  
 }
