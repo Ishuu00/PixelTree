@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-banner {
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rock-paper-scissor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 30px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  gap: 5rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#score1 {
+  font-size: 4rem;
+}
+
+#score2 {
+  font-size: 4rem;
+}
+
+.score-msg {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#msg {
+  display: inline;
+  background-color: purple;
+  padding: 0.8rem;
+  border-radius: 15px;
+  color: white;
+}
