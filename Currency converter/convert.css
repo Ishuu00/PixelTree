@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+h4 {
+  font-size: 1vw;
+}
+
+.calculate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightcyan;
+}
+
+.head-user-choice {
+  text-align: left;
+  margin-top: 10px;
+  opacity: 80%;
+}
+
+.head-user-choice input {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 70%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+  padding: 5px 10px 5px 10px;
+}
+
+.calulator-box {
+  height: 70vh;
+  width: 40vw;
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  padding: 35px;
+}
+
+img {
+  width: 10vw;
+}
+
+.user-result {
+  text-align: left;
+  font-weight: 500;
+}
+
+select {
+  color: white;
+  background-color: cadetblue;
+  font-size: 1.3vw;
+  font-weight: 400;
+  /* height: 6vh; */
+  width: 16vw;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+option {
+  color: black;
+  height: 2px;
+  background-color: white;
+}
+
+#submit-button {
+  font-weight: 600;
+  font-size: 2vw;
+  width: 30vw;
+  border: none;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+#submit-button:hover {
+  cursor: pointer;
+}

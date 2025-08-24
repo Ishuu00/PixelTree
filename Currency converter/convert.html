@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Currency converter/convert.css" />
+  </head>
+  <body>
+    <div class="calculate">
+      <div class="calulator-box">
+        <div class="front-img">
+          <img
+            src="/Photos/illustration-graphic-cartoon-character-of-currency-exchange-free-vector.jpg"
+            alt="Symbol"
+          />
+        </div>
+        <h1>Currency Converter</h1>
+
+        <form action="#">
+          <div class="head-user-choice">
+            <h4>Amount:</h4>
+            <input
+              type="number"
+              placeholder="100"
+              name="userChoice"
+              id="input"
+            />
+          </div>
+          <br />
+          <div class="select-currency">
+            <select name="from" class="from-currency"></select>
+            <select name="to" class="to-currency"></select>
+          </div>
+          <br />
+          <div class="user-result">1USD = 86.4 INR</div>
+
+          <button id="submit-button">Convert</button>
+        </form>
+      </div>
+    </div>
+    <script src="/Currency converter/countryList.js"></script>
+    <script src="/Currency converter/convert.js"></script>
+  </body>
+</html>
